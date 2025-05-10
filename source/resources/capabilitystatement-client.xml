@@ -203,7 +203,7 @@
 		</coding>
 	</jurisdiction>
 	<kind value="requirements"/>
-	<fhirVersion value="3.0.1"/>
+	<fhirVersion value="4.0.1"/>
 	<acceptUnknown value="both"/>
 	<format value="application/fhir+xml"/>
 	<format value="application/fhir+json"/>
