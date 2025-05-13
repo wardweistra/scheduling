@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Subscription xmlns="http://hl7.org/fhir">
-	<id value="example"/>
+  <id value="example"/>
   <meta>
     <profile value="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/argo-sub-notif"/>
   </meta>
-
-	<status value="active"/>
-	<reason value="Notify subscriber of schedule changes to trigger the subscriber prefetch updated slots"/>
-	<criteria>
-		<extension url="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-subscription-triggerevent">
-			<valueString value="schedule where any slot that reference it has changed"/>
-		</extension>
-		<extension url="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-subscription-eventfocus">
-			<valueCode value="Slot"/>
-		</extension>
-	</criteria>
-	<channel>
-		<extension url="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-subscription-payloadprofile">
-			<valueUri value="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/argo-sched-notif"/>
-		</extension>
-		<type value="rest-hook"/>
-		<endpoint value="https://feed-handler.com/notification"/>
-		<payload value="application/fhir+json"/>
-	</channel>
+  <status value="active"/>
+  <reason value="Notify subscriber of schedule changes to trigger the subscriber prefetch updated slots"/>
+  <criteria>
+    <extension url="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-subscription-triggerevent">
+      <valueString value="schedule where any slot that reference it has changed"/>
+    </extension>
+    <extension url="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-subscription-eventfocus">
+      <valueCode value="Slot"/>
+    </extension>
+  </criteria>
+  <channel>
+    <extension url="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-subscription-payloadprofile">
+      <valueUri value="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/argo-sched-notif"/>
+    </extension>
+    <type value="rest-hook"/>
+    <endpoint value="https://feed-handler.com/notification"/>
+    <payload value="application/fhir+json"/>
+  </channel>
 </Subscription>

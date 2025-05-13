@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OperationOutcome xmlns="http://hl7.org/fhir" >
-	<id value="example"/>
-	<issue>
-		<severity value="information"/>
-		<code value="informational"/>
-		<details>
-			<text value="the appointment availability operation was successful"/>
-		</details>
-	</issue>
+<OperationOutcome xmlns="http://hl7.org/fhir">
+  <id value="example"/>
+  <issue>
+    <severity value="information"/>
+    <code value="informational"/>
+    <details>
+      <text value="the appointment availability operation was successful"/>
+    </details>
+  </issue>
 </OperationOutcome>

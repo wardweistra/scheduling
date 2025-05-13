@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Schedule xmlns="http://hl7.org/fhir">
-	<id value="example1"/>
+  <id value="example1"/>
   <meta>
     <profile value="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/argo-sched-notif"/>
   </meta>
-
-	<actor>
-		<reference value="Practitioner/dr-y"/>
-		<display value="Crusher, Beverly"/>
-	</actor>
-	<planningHorizon>
-		<start value="2018-02-13"/>
-		<end value="2018-02-13"/>
-	</planningHorizon>
+  <actor>
+    <reference value="Practitioner/dr-y"/>
+    <display value="Crusher, Beverly"/>
+  </actor>
+  <planningHorizon>
+    <start value="2018-02-13"/>
+    <end value="2018-02-13"/>
+  </planningHorizon>
 </Schedule>

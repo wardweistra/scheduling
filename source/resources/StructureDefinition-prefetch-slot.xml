@@ -1,84 +1,84 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="prefetch-slot" />
-  <url value="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/prefetch-slot" />
-  <version value="0.0.0" />
-  <name value="Argonaut_Prefetch_Slot_Profile" />
-  <title value="Argonaut Prefetch Slot Profile" />
-  <status value="active" />
-  <date value="2018-01-10" />
-  <publisher value="Argonaut Project" />
+  <id value="prefetch-slot"/>
+  <url value="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/prefetch-slot"/>
+  <version value="0.0.0"/>
+  <name value="Argonaut_Prefetch_Slot_Profile"/>
+  <title value="Argonaut Prefetch Slot Profile"/>
+  <status value="active"/>
+  <date value="2018-01-10"/>
+  <publisher value="Argonaut Project"/>
   <contact>
     <telecom>
-      <system value="url" />
-      <value value="http://argonautwiki.hl7.org" />
+      <system value="url"/>
+      <value value="http://argonautwiki.hl7.org"/>
     </telecom>
   </contact>
-  <description value="The Argonaut Prefetch Slot Profile defines the Slots that are returned when prefetching slots." />
+  <description value="The Argonaut Prefetch Slot Profile defines the Slots that are returned when prefetching slots."/>
   <jurisdiction>
     <coding>
-      <system value="urn:iso:std:iso:3166" />
-      <code value="US" />
-      <display value="United States of America" />
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
     </coding>
   </jurisdiction>
-  <fhirVersion value="3.0.1" />
-  <kind value="resource" />
-  <abstract value="false" />
-  <type value="Slot" />
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Slot" />
-  <derivation value="constraint" />
+  <fhirVersion value="3.0.1"/>
+  <kind value="resource"/>
+  <abstract value="false"/>
+  <type value="Slot"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Slot"/>
+  <derivation value="constraint"/>
   <differential>
     <element id="Slot">
-      <path value="Slot" />
-      <mustSupport value="false" />
+      <path value="Slot"/>
+      <mustSupport value="false"/>
     </element>
     <element id="Slot.id">
-      <path value="Slot.id" />
-      <min value="1" />
-      <mustSupport value="true" />
+      <path value="Slot.id"/>
+      <min value="1"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Slot.serviceType">
-      <path value="Slot.serviceType" />
-      <mustSupport value="true" />
+      <path value="Slot.serviceType"/>
+      <mustSupport value="true"/>
       <binding>
-        <strength value="extensible" />
+        <strength value="extensible"/>
         <valueSetReference>
-          <reference value="http://fhir.org/guides/argonaut-scheduling/ValueSet/visit-type" />
+          <reference value="http://fhir.org/guides/argonaut-scheduling/ValueSet/visit-type"/>
         </valueSetReference>
       </binding>
     </element>
     <element id="Slot.schedule">
-      <path value="Slot.schedule" />
-      <mustSupport value="true" />
+      <path value="Slot.schedule"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Slot.status">
-      <path value="Slot.status" />
-      <short value="busy | free | busy-unavailable | entered-in-error" />
-      <definition value="busy | free | busy-unavailable | entered-in-error." />
-      <mustSupport value="true" />
+      <path value="Slot.status"/>
+      <short value="busy | free | busy-unavailable | entered-in-error"/>
+      <definition value="busy | free | busy-unavailable | entered-in-error."/>
+      <mustSupport value="true"/>
       <binding>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="SlotStatus" />
+          <valueString value="SlotStatus"/>
         </extension>
-        <strength value="required" />
-        <description value="The free/busy status of the slot. This value set is a subset of the the FHIR core Slot value set excluding the 'busy-tentative' concept." />
+        <strength value="required"/>
+        <description value="The free/busy status of the slot. This value set is a subset of the the FHIR core Slot value set excluding the 'busy-tentative' concept."/>
         <valueSetReference>
-          <reference value="http://fhir.org/guides/argonaut-scheduling/ValueSet/argo-slot-status" />
+          <reference value="http://fhir.org/guides/argonaut-scheduling/ValueSet/argo-slot-status"/>
         </valueSetReference>
       </binding>
     </element>
     <element id="Slot.start">
-      <path value="Slot.start" />
-      <mustSupport value="true" />
+      <path value="Slot.start"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Slot.end">
-      <path value="Slot.end" />
-      <mustSupport value="true" />
+      <path value="Slot.end"/>
+      <mustSupport value="true"/>
     </element>
     <element id="Slot.comment">
-      <path value="Slot.comment" />
-      <mustSupport value="true" />
+      <path value="Slot.comment"/>
+      <mustSupport value="true"/>
     </element>
   </differential>
 </StructureDefinition>

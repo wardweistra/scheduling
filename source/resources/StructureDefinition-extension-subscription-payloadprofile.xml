@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="extension-subscription-payloadprofile"/>
-
   <url value="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-subscription-payloadprofile"/>
   <version value="1.0.0"/>
   <name value="Subscription_Payload_Profile_Extension"/>
@@ -25,7 +23,6 @@
     </coding>
   </jurisdiction>
   <fhirVersion value="3.0.1"/>
-
   <kind value="complex-type"/>
   <abstract value="false"/>
   <contextType value="resource"/>
@@ -33,7 +30,6 @@
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
   <derivation value="constraint"/>
-
   <differential>
     <element id="Extension">
       <path value="Extension"/>

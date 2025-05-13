@@ -6,7 +6,7 @@
   <status value="draft"/>
   <kind value="operation"/>
   <date value="2017-07-15T08:59:00-07:00"/>
-  <description    value="Searches for availability for a future appointment(s) within  a time period of defined by date range input parameters.  Other input parameter that can be used to further refine the search include  practitioner references, specialties, healthcare services, locations, and patient information. From these criteria, a system determines which schedulable resources ( e.g., people, rooms, equiibment) are needed for the visit, and provides time slots where all required resources are available.&#xA;&#xA;If neither a start or end date is given then the maximum period as defined by local business rules and starting from when the  operation was transacted will be used."/>
+  <description value="Searches for availability for a future appointment(s) within  a time period of defined by date range input parameters.  Other input parameter that can be used to further refine the search include  practitioner references, specialties, healthcare services, locations, and patient information. From these criteria, a system determines which schedulable resources ( e.g., people, rooms, equiibment) are needed for the visit, and provides time slots where all required resources are available.&#10;&#10;If neither a start or end date is given then the maximum period as defined by local business rules and starting from when the  operation was transacted will be used."/>
   <code value="find"/>
   <comment value="additional notes here"/>
   <resource value="Appointment"/>
@@ -18,7 +18,7 @@
     <use value="in"/>
     <min value="1"/>
     <max value="1"/>
-    <documentation    value="The period of time that should be checked for appointment availability.- e.g., look for all available appointments in a certain date range. If no start date is provided,  all available appointments prior to the end date are in scope (subject to limits imposed by local business rules). If no end date is provided, all available appointments after the start date are in scope (subject to limits imposed by local business rules)."/>
+    <documentation value="The period of time that should be checked for appointment availability.- e.g., look for all available appointments in a certain date range. If no start date is provided,  all available appointments prior to the end date are in scope (subject to limits imposed by local business rules). If no end date is provided, all available appointments after the start date are in scope (subject to limits imposed by local business rules)."/>
     <type value="Period"/>
   </parameter>
   <parameter>
@@ -26,7 +26,7 @@
     <use value="in"/>
     <min value="0"/>
     <max value="*"/>
-    <documentation    value="The code for which specialty is requested for the appointment. ( e.g., &#39;Dermatology&#39;).   If multiple codes are listed, the order of the codes will interpreted as the order of preference.  The response will contain appointments with any of these actors (i.e. this does not drive joint appointment with multiple actors).  Each specialty code must have a corresponding  `specialty-codesystem`  input parameter."/>
+    <documentation value="The code for which specialty is requested for the appointment. ( e.g., 'Dermatology').   If multiple codes are listed, the order of the codes will interpreted as the order of preference.  The response will contain appointments with any of these actors (i.e. this does not drive joint appointment with multiple actors).  Each specialty code must have a corresponding  `specialty-codesystem`  input parameter."/>
     <type value="Coding"/>
     <binding>
       <strength value="extensible"/>
@@ -40,7 +40,7 @@
     <use value="in"/>
     <min value="0"/>
     <max value="*"/>
-    <documentation value="The codes for types of requested service for the appointment. ( e.g.,&#39;Echocardiography&#39;, &#39;New Patient&#39;  ,or  &#39;Well child visit&#39; ).  The service code must have a corresponding  `service-codesystem` input parameter."/>
+    <documentation value="The codes for types of requested service for the appointment. ( e.g.,'Echocardiography', 'New Patient'  ,or  'Well child visit' ).  The service code must have a corresponding  `service-codesystem` input parameter."/>
     <type value="Coding"/>
     <binding>
       <strength value="extensible"/>
@@ -54,7 +54,7 @@
     <use value="in"/>
     <min value="0"/>
     <max value="*"/>
-    <documentation    value="The Provider reference when performing a provider based query which has the value of either the Appointment.participant.actor either as a: reference to a FHIR resource,  e.g. &#39;Provider/123&#39;. (References can be to an absolute URL, but servers only perform stats on their own observations.) or 2) a unique business identifier. E.g a NPI. If multiple uris are listed, the order of the codes will interpreted as the order of preference.  The response will contain appointments with any of these actors (i.e. this does not drive joint appointment with multiple actors)."/>
+    <documentation value="The Provider reference when performing a provider based query which has the value of either the Appointment.participant.actor either as a: reference to a FHIR resource,  e.g. 'Provider/123'. (References can be to an absolute URL, but servers only perform stats on their own observations.) or 2) a unique business identifier. E.g a NPI. If multiple uris are listed, the order of the codes will interpreted as the order of preference.  The response will contain appointments with any of these actors (i.e. this does not drive joint appointment with multiple actors)."/>
     <type value="Reference"/>
   </parameter>
   <parameter>
@@ -70,7 +70,7 @@
     <use value="in"/>
     <min value="0"/>
     <max value="*"/>
-    <documentation    value="A Patient resource that includes demographics and patient preferences. This is provided as a resource instead of a reference because the patient may not exist when performing an availablity search. If the appointment is for a new patient, the patient record should not be created until just before booking an appointment."/>
+    <documentation value="A Patient resource that includes demographics and patient preferences. This is provided as a resource instead of a reference because the patient may not exist when performing an availablity search. If the appointment is for a new patient, the patient record should not be created until just before booking an appointment."/>
     <type value="Resource"/>
     <profile>
       <reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
@@ -89,7 +89,7 @@
     <use value="out"/>
     <min value="0"/>
     <max value="1"/>
-    <documentation    value="A Bundle of type `searchset` of proposed Appointment resources an dmay also contain an OperationOutcome with errors, warnings or information as a result of processing the operation - e.g., the returned appointments are not within the requested start and end times. An empty bundle means no available appointments based on inputs"/>
+    <documentation value="A Bundle of type `searchset` of proposed Appointment resources an dmay also contain an OperationOutcome with errors, warnings or information as a result of processing the operation - e.g., the returned appointments are not within the requested start and end times. An empty bundle means no available appointments based on inputs"/>
     <type value="Bundle"/>
   </parameter>
 </OperationDefinition>

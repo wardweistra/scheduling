@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Schedule xmlns="http://hl7.org/fhir">
-	<id value="2017-08-28-derm"/>
+  <id value="2017-08-28-derm"/>
   <meta>
     <profile value="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/argo-sched-notif"/>
   </meta>
-
   <serviceType>
     <coding>
       <system value="http://fhir.org/guides/argonaut-scheduling/CodeSystem/visit-type"/>
@@ -19,13 +18,12 @@
       <display value="Dermatology"/>
     </coding>
   </specialty>
-
-	<actor>
-		<reference value="Practitioner/dr-y"/>
-		<display value="Crusher, Beverly"/>
-	</actor>
-	<planningHorizon>
-		<start value="2017-08-28"/>
-		<end value="2018-08-28"/>
-	</planningHorizon>
+  <actor>
+    <reference value="Practitioner/dr-y"/>
+    <display value="Crusher, Beverly"/>
+  </actor>
+  <planningHorizon>
+    <start value="2017-08-28"/>
+    <end value="2018-08-28"/>
+  </planningHorizon>
 </Schedule>

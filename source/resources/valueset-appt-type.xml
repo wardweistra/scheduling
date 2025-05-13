@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ValueSet xmlns="http://hl7.org/fhir" >
-	<id value="appt-type"/>
-	<url value="http://fhir.org/guides/argonaut-scheduling/ValueSet/appt-type"/>
-	<version value="1.0.0"/>
-	<name value="Argonaut_Appointment_Types"/>
-	<title value="Argonaut Appointment Types"/>
-	<status value="active"/>
-	<date value="2017-07-12T19:40:10Z"/>
-	<description value="The style of appointment or patient for appointment booking (not service type).  These concepts are used in the FHIR Appointment, Schedule and Slot resources. The [Argonaut Scheduling Visit Types](http://fhir.org/guides/argonaut-scheduling/ConceptMap/visit-appt-map) are mapped to these concepts."/>
-	<compose>
-		<include>
-			<system value="http://fhir.org/guides/argonaut-scheduling/CodeSystem/appt-type"/>
-		</include>
-		<include>
-			<valueSet value="http://hl7.org/fhir/ValueSet/v2-0276"/>
-		</include>
-	</compose>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="appt-type"/>
+  <url value="http://fhir.org/guides/argonaut-scheduling/ValueSet/appt-type"/>
+  <version value="1.0.0"/>
+  <name value="Argonaut_Appointment_Types"/>
+  <title value="Argonaut Appointment Types"/>
+  <status value="active"/>
+  <date value="2017-07-12T19:40:10Z"/>
+  <description value="The style of appointment or patient for appointment booking (not service type).  These concepts are used in the FHIR Appointment, Schedule and Slot resources. The [Argonaut Scheduling Visit Types](http://fhir.org/guides/argonaut-scheduling/ConceptMap/visit-appt-map) are mapped to these concepts."/>
+  <compose>
+    <include>
+      <system value="http://fhir.org/guides/argonaut-scheduling/CodeSystem/appt-type"/>
+    </include>
+    <include>
+      <valueSet value="http://hl7.org/fhir/ValueSet/v2-0276"/>
+    </include>
+  </compose>
 </ValueSet>
