@@ -1,0 +1,1477 @@
+{
+  "Timestamp": "2025-05-13T14:04:27.3439934+00:00",
+  "Series": "Validation",
+  "Type": "Forge",
+  "Files": [
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "File could not be processed"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "Found multiple conflicting conformance resources with the same canonical url identifier.\r\n\r\nUrl: http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-status-reason\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-extension-status-reason.xml\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-extension-status-reason.json\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\source\\resources\\StructureDefinition-extension-status-reason.xml\r\n"
+        }
+      ],
+      "Tag": null,
+      "Length": 78597,
+      "Hash": "4D6F13ACF4794F4A047D82FDC592D55B",
+      "FilePath": "docs\\StructureDefinition-argo-appt.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "File could not be processed"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "Found multiple conflicting conformance resources with the same canonical url identifier.\r\n\r\nUrl: http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-status-reason\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-extension-status-reason.xml\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-extension-status-reason.json\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\source\\resources\\StructureDefinition-extension-status-reason.xml\r\n"
+        }
+      ],
+      "Tag": null,
+      "Length": 78325,
+      "Hash": "B83EC17A4C6EFD05B3CE6C40D083D6BC",
+      "FilePath": "docs\\StructureDefinition-argo-appt.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Coverage.status.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.status.type",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC001",
+          "Message": "Differential value has been changed from list (1 item) to list (0 items)"
+        },
+        {
+          "Location": "Coverage.type.type",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC001",
+          "Message": "Differential value has been changed from list (1 item) to list (0 items)"
+        },
+        {
+          "Location": "Coverage.type.binding.valueSet",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u003CResourceReference\u003E has been removed"
+        },
+        {
+          "Location": "Coverage.subscriber.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.subscriber.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.subscriberId.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.subscriberId.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.relationship.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.relationship.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.relationship.type",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC001",
+          "Message": "Differential value has been changed from list (1 item) to list (0 items)"
+        },
+        {
+          "Location": "Coverage.relationship.binding.valueSet",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u003CResourceReference\u003E has been removed"
+        },
+        {
+          "Location": "Coverage.payor.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u0027*\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.grouping.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.grouping.plan.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.grouping.planDisplay.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 107476,
+      "Hash": "733790553EA52A654991F2B1F355A97C",
+      "FilePath": "docs\\StructureDefinition-argo-coverage.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Coverage.status.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.status.type",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC001",
+          "Message": "Differential value has been changed from list (1 item) to list (0 items)"
+        },
+        {
+          "Location": "Coverage.type.type",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC001",
+          "Message": "Differential value has been changed from list (1 item) to list (0 items)"
+        },
+        {
+          "Location": "Coverage.type.binding.valueSet",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u003CResourceReference\u003E has been removed"
+        },
+        {
+          "Location": "Coverage.subscriber.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.subscriber.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.subscriberId.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.subscriberId.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.relationship.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.relationship.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.relationship.type",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC001",
+          "Message": "Differential value has been changed from list (1 item) to list (0 items)"
+        },
+        {
+          "Location": "Coverage.relationship.binding.valueSet",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u003CResourceReference\u003E has been removed"
+        },
+        {
+          "Location": "Coverage.payor.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u0027*\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.grouping.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.grouping.plan.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.grouping.planDisplay.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 107396,
+      "Hash": "BA209391C40D80AE930114DF0E505B2D",
+      "FilePath": "docs\\StructureDefinition-argo-coverage.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Schedule.actor.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Schedule.actor.reference.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Schedule.planningHorizon.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Schedule.planningHorizon.start.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Schedule.planningHorizon.end.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 69356,
+      "Hash": "E3DA6519FA16E4EAF5DC5B0B28192044",
+      "FilePath": "docs\\StructureDefinition-argo-sched-notif.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Schedule.actor.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Schedule.actor.reference.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Schedule.planningHorizon.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Schedule.planningHorizon.start.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Schedule.planningHorizon.end.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 69288,
+      "Hash": "CFB9A743CED1204F2E0542248C55D3CC",
+      "FilePath": "docs\\StructureDefinition-argo-sched-notif.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "File could not be processed"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "Found multiple conflicting conformance resources with the same canonical url identifier.\r\n\r\nUrl: http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-subscription-triggerevent\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-extension-subscription-triggerevent.xml\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-extension-subscription-triggerevent.json\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\source\\resources\\StructureDefinition-extension-subscription-triggerevent.xml\r\n"
+        }
+      ],
+      "Tag": null,
+      "Length": 71699,
+      "Hash": "7AC94FE89CC0DAD66125AC2D5CF7908F",
+      "FilePath": "docs\\StructureDefinition-argo-sub-notif.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "File could not be processed"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "Found multiple conflicting conformance resources with the same canonical url identifier.\r\n\r\nUrl: http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-subscription-triggerevent\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-extension-subscription-triggerevent.xml\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-extension-subscription-triggerevent.json\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\source\\resources\\StructureDefinition-extension-subscription-triggerevent.xml\r\n"
+        }
+      ],
+      "Tag": null,
+      "Length": 71000,
+      "Hash": "F96B0A75230BFF6DBE72A6E91DABFDDC",
+      "FilePath": "docs\\StructureDefinition-argo-sub-notif.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "File could not be processed"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "Found multiple conflicting conformance resources with the same canonical url identifier.\r\n\r\nUrl: http://fhir.org/guides/argonaut-scheduling/StructureDefinition/argo-appt\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-argo-appt.xml\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-argo-appt.json\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\source\\resources\\StructureDefinition-argo-appt.xml\r\n"
+        }
+      ],
+      "Tag": null,
+      "Length": 140945,
+      "Hash": "E4D143D254927FE4E2E5ADA0DB5EC4F5",
+      "FilePath": "docs\\StructureDefinition-avail-bundle.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "File could not be processed"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "Found multiple conflicting conformance resources with the same canonical url identifier.\r\n\r\nUrl: http://fhir.org/guides/argonaut-scheduling/StructureDefinition/argo-appt\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-argo-appt.xml\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-argo-appt.json\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\source\\resources\\StructureDefinition-argo-appt.xml\r\n"
+        }
+      ],
+      "Tag": null,
+      "Length": 140567,
+      "Hash": "7B470D331AAF483EF7EE8F47DF495206",
+      "FilePath": "docs\\StructureDefinition-avail-bundle.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Extension.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC013",
+          "Message": "Maximum cardinality has been recalculated and set to 0"
+        },
+        {
+          "Location": "Extension.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Extension.valueCodeableConcept",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 18481,
+      "Hash": "36EF4DC84B32A0C94B0955D514C881EE",
+      "FilePath": "docs\\StructureDefinition-extension-status-reason.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Extension.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC013",
+          "Message": "Maximum cardinality has been recalculated and set to 0"
+        },
+        {
+          "Location": "Extension.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Extension.valueCodeableConcept",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 18256,
+      "Hash": "DBA431355804C6B7409DFEDF08F2EE3D",
+      "FilePath": "docs\\StructureDefinition-extension-status-reason.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Extension.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC013",
+          "Message": "Maximum cardinality has been recalculated and set to 0"
+        },
+        {
+          "Location": "Extension.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Extension.valueCode",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 18356,
+      "Hash": "FFC893C5A36147C839CA68B381F5600D",
+      "FilePath": "docs\\StructureDefinition-extension-subscription-eventfocus.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Extension.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC013",
+          "Message": "Maximum cardinality has been recalculated and set to 0"
+        },
+        {
+          "Location": "Extension.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Extension.valueCode",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 18125,
+      "Hash": "02FA156DE44B56CE4718CB17A3B3FD46",
+      "FilePath": "docs\\StructureDefinition-extension-subscription-eventfocus.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Extension.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC013",
+          "Message": "Maximum cardinality has been recalculated and set to 0"
+        },
+        {
+          "Location": "Extension.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Extension.valueUri",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 16983,
+      "Hash": "7A409A86CBC49681AA25D8D81B9BE984",
+      "FilePath": "docs\\StructureDefinition-extension-subscription-payloadprofile.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Extension.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC013",
+          "Message": "Maximum cardinality has been recalculated and set to 0"
+        },
+        {
+          "Location": "Extension.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Extension.valueUri",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 16709,
+      "Hash": "E4347A39BCA7A55F7CF9CDC3A187F493",
+      "FilePath": "docs\\StructureDefinition-extension-subscription-payloadprofile.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Extension.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC013",
+          "Message": "Maximum cardinality has been recalculated and set to 0"
+        },
+        {
+          "Location": "Extension.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Extension.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u0027*\u0027 has been removed"
+        },
+        {
+          "Location": "Extension.valueString",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 17887,
+      "Hash": "BFE914774082BCF1E8A6E825641F4A61",
+      "FilePath": "docs\\StructureDefinition-extension-subscription-triggerevent.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Extension.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC013",
+          "Message": "Maximum cardinality has been recalculated and set to 0"
+        },
+        {
+          "Location": "Extension.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Extension.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u0027*\u0027 has been removed"
+        },
+        {
+          "Location": "Extension.valueString",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 17616,
+      "Hash": "ED6BBF0D856497B3D5F2A95AE18021F9",
+      "FilePath": "docs\\StructureDefinition-extension-subscription-triggerevent.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Slot.status",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC002",
+          "Message": "Inherited extension \u0027http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName\u0027 has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 58114,
+      "Hash": "7E6FADFACE9154EE91C4EA113D765B98",
+      "FilePath": "docs\\StructureDefinition-prefetch-slot.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Slot.status",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC002",
+          "Message": "Inherited extension \u0027http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName\u0027 has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 57796,
+      "Hash": "96BF1FDD0D95E1A1F8A642891A9DD443",
+      "FilePath": "docs\\StructureDefinition-prefetch-slot.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "File could not be processed"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "Found multiple conflicting conformance resources with the same canonical url identifier.\r\n\r\nUrl: http://fhir.org/guides/argonaut-scheduling/StructureDefinition/prefetch-slot\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-prefetch-slot.xml\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-prefetch-slot.json\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\source\\resources\\StructureDefinition-prefetch-slot.xml\r\n"
+        }
+      ],
+      "Tag": null,
+      "Length": 141012,
+      "Hash": "40B60D5436F5CA0FB385DCF444E034D1",
+      "FilePath": "docs\\StructureDefinition-slot-bundle.json"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "File could not be processed"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "Found multiple conflicting conformance resources with the same canonical url identifier.\r\n\r\nUrl: http://fhir.org/guides/argonaut-scheduling/StructureDefinition/prefetch-slot\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-prefetch-slot.xml\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-prefetch-slot.json\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\source\\resources\\StructureDefinition-prefetch-slot.xml\r\n"
+        }
+      ],
+      "Tag": null,
+      "Length": 140723,
+      "Hash": "45B77DBC0E3FBCA86FC7B39F09CB9E7D",
+      "FilePath": "docs\\StructureDefinition-slot-bundle.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "File could not be processed"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "Found multiple conflicting conformance resources with the same canonical url identifier.\r\n\r\nUrl: http://fhir.org/guides/argonaut-scheduling/StructureDefinition/argo-appt\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-argo-appt.xml\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-argo-appt.json\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\source\\resources\\StructureDefinition-argo-appt.xml\r\n"
+        }
+      ],
+      "Tag": null,
+      "Length": 4575,
+      "Hash": "F09B4E648C42CF7CD9853A1569BAAB57",
+      "FilePath": "source\\resources\\drafts\\structuredefinition-avail-bundle.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Extension.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC013",
+          "Message": "Maximum cardinality has been recalculated and set to 0"
+        },
+        {
+          "Location": "Extension.valueReference",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 2709,
+      "Hash": "8E7B103934B9B6E141849E103BC5500F",
+      "FilePath": "source\\resources\\drafts\\StructureDefinition-extension-slot-parameter.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "File could not be processed"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "Found multiple conflicting conformance resources with the same canonical url identifier.\r\n\r\nUrl: http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-status-reason\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-extension-status-reason.xml\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-extension-status-reason.json\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\source\\resources\\StructureDefinition-extension-status-reason.xml\r\n"
+        }
+      ],
+      "Tag": null,
+      "Length": 5022,
+      "Hash": "86BB44934072069D9D19A17721DFD017",
+      "FilePath": "source\\resources\\StructureDefinition-argo-appt.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Coverage.status.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.status.type",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC001",
+          "Message": "Differential value has been changed from list (1 item) to list (0 items)"
+        },
+        {
+          "Location": "Coverage.type.type",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC001",
+          "Message": "Differential value has been changed from list (1 item) to list (0 items)"
+        },
+        {
+          "Location": "Coverage.type.binding.valueSet",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u003CResourceReference\u003E has been removed"
+        },
+        {
+          "Location": "Coverage.subscriber.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.subscriber.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.subscriberId.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.subscriberId.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.relationship.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.relationship.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.relationship.type",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC001",
+          "Message": "Differential value has been changed from list (1 item) to list (0 items)"
+        },
+        {
+          "Location": "Coverage.relationship.binding.valueSet",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u003CResourceReference\u003E has been removed"
+        },
+        {
+          "Location": "Coverage.payor.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u0027*\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.grouping.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.grouping.plan.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Coverage.grouping.planDisplay.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 4723,
+      "Hash": "E3BF52B5213DA37AA7F9170196C215DA",
+      "FilePath": "source\\resources\\StructureDefinition-argo-coverage.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Schedule.actor.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Schedule.actor.reference.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Schedule.planningHorizon.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Schedule.planningHorizon.start.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        },
+        {
+          "Location": "Schedule.planningHorizon.end.max",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00271\u0027 has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 2372,
+      "Hash": "800258C06C43EF4FFD463DEC0DC01C0A",
+      "FilePath": "source\\resources\\StructureDefinition-argo-sched-notif.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "File could not be processed"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "Found multiple conflicting conformance resources with the same canonical url identifier.\r\n\r\nUrl: http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-subscription-triggerevent\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-extension-subscription-triggerevent.xml\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-extension-subscription-triggerevent.json\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\source\\resources\\StructureDefinition-extension-subscription-triggerevent.xml\r\n"
+        }
+      ],
+      "Tag": null,
+      "Length": 6282,
+      "Hash": "1A15E5A28483B517B0E4723E72F40A78",
+      "FilePath": "source\\resources\\StructureDefinition-argo-sub-notif.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "File could not be processed"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "Found multiple conflicting conformance resources with the same canonical url identifier.\r\n\r\nUrl: http://fhir.org/guides/argonaut-scheduling/StructureDefinition/argo-appt\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-argo-appt.xml\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-argo-appt.json\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\source\\resources\\StructureDefinition-argo-appt.xml\r\n"
+        }
+      ],
+      "Tag": null,
+      "Length": 4022,
+      "Hash": "B2FCB1DE8B2744BE99EE79BCEA48CE84",
+      "FilePath": "source\\resources\\StructureDefinition-avail-bundle.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Extension.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC013",
+          "Message": "Maximum cardinality has been recalculated and set to 0"
+        },
+        {
+          "Location": "Extension:status-reason",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        },
+        {
+          "Location": "Extension:status-reason.url",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        },
+        {
+          "Location": "Extension:status-reason.valueCodeableConcept",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 2646,
+      "Hash": "AD2C03FE0982A59DF6FE87D390148DB9",
+      "FilePath": "source\\resources\\StructureDefinition-extension-status-reason.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Extension.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC013",
+          "Message": "Maximum cardinality has been recalculated and set to 0"
+        },
+        {
+          "Location": "Extension:event-focus",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        },
+        {
+          "Location": "Extension:event-focus.url",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        },
+        {
+          "Location": "Extension:event-focus.valueCode",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 2637,
+      "Hash": "E89BB8CDB845D3F0AC98878E0EFE15AD",
+      "FilePath": "source\\resources\\StructureDefinition-extension-subscription-eventfocus.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Extension.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC013",
+          "Message": "Maximum cardinality has been recalculated and set to 0"
+        },
+        {
+          "Location": "Extension.min",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC011",
+          "Message": "Differential value \u00270\u0027 has been removed"
+        },
+        {
+          "Location": "Extension.valueUri",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 2092,
+      "Hash": "02683A0F8DB0563E9CE1F47F6AEEBC96",
+      "FilePath": "source\\resources\\StructureDefinition-extension-subscription-payloadprofile.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Extension.extension",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC013",
+          "Message": "Maximum cardinality has been recalculated and set to 0"
+        },
+        {
+          "Location": "Extension:trigger-event",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        },
+        {
+          "Location": "Extension:trigger-event.url",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        },
+        {
+          "Location": "Extension:trigger-event.valueString",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC009",
+          "Message": "Differential element has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 2492,
+      "Hash": "14FA8737B416C8315A79EE16EFA81703",
+      "FilePath": "source\\resources\\StructureDefinition-extension-subscription-triggerevent.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": "Slot.status",
+          "Severity": 4,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": "FC002",
+          "Message": "Inherited extension \u0027http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName\u0027 has been removed"
+        }
+      ],
+      "Tag": null,
+      "Length": 2960,
+      "Hash": "C7CE94DE926701D9954C6B7E6F0FB253",
+      "FilePath": "source\\resources\\StructureDefinition-prefetch-slot.xml"
+    },
+    {
+      "Issues": [
+        {
+          "Location": "fhirVersion",
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "FHIR version can be updated from 3.0.1 to 3.0.2"
+        },
+        {
+          "Location": null,
+          "Severity": 1,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "File could not be processed"
+        },
+        {
+          "Location": null,
+          "Severity": 0,
+          "System": "https://forge.net/qc/errors/evaluation",
+          "Code": null,
+          "Message": "Found multiple conflicting conformance resources with the same canonical url identifier.\r\n\r\nUrl: http://fhir.org/guides/argonaut-scheduling/StructureDefinition/prefetch-slot\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-prefetch-slot.xml\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\docs\\StructureDefinition-prefetch-slot.json\r\n   File: \\\\Mac\\Home\\fhir-specs\\r4\\scheduling\\source\\resources\\StructureDefinition-prefetch-slot.xml\r\n"
+        }
+      ],
+      "Tag": null,
+      "Length": 4302,
+      "Hash": "CED6F9918FF962F5187E36500D765394",
+      "FilePath": "source\\resources\\StructureDefinition-slot-bundle.xml"
+    }
+  ]
+}

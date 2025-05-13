@@ -61,7 +61,7 @@
         "min": 0,
         "max": "1",
         "base": {
-          "path": "Extension",
+          "path": "Element",
           "min": 0,
           "max": "*"
         },
@@ -75,7 +75,7 @@
             "human": "All FHIR elements must have a @value or children",
             "expression": "hasValue() | (children().count() > id.count())",
             "xpath": "@value|f:*|h:div",
-            "source": "Element"
+            "source": "http://hl7.org/fhir/StructureDefinition/Extension"
           },
           {
             "key": "ext-1",
@@ -83,7 +83,17 @@
             "human": "Must have either extensions or value[x], not both",
             "expression": "extension.exists() != value.exists()",
             "xpath": "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
-            "source": "Extension"
+            "source": "http://hl7.org/fhir/StructureDefinition/Extension"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "n/a"
+          },
+          {
+            "identity": "rim",
+            "map": "N/A"
           }
         ]
       },
@@ -95,6 +105,7 @@
         ],
         "short": "xml:id (or equivalent in JSON)",
         "definition": "unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+        "comment": "Note that FHIR strings may not exceed 1MB in size",
         "min": 0,
         "max": "1",
         "base": {
@@ -105,6 +116,18 @@
         "type": [
           {
             "code": "string"
+          }
+        ],
+        "condition": [
+          "ele-1"
+        ],
+        "constraint": [
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "hasValue() | (children().count() > id.count())",
+            "xpath": "@value|f:*|h:div"
           }
         ],
         "mapping": [
@@ -135,7 +158,7 @@
           "user content"
         ],
         "min": 0,
-        "max": "*",
+        "max": "0",
         "base": {
           "path": "Element.extension",
           "min": 0,
@@ -146,10 +169,35 @@
             "code": "Extension"
           }
         ],
+        "condition": [
+          "ele-1"
+        ],
+        "constraint": [
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "hasValue() | (children().count() > id.count())",
+            "xpath": "@value|f:*|h:div",
+            "source": "http://hl7.org/fhir/StructureDefinition/Extension"
+          },
+          {
+            "key": "ext-1",
+            "severity": "error",
+            "human": "Must have either extensions or value[x], not both",
+            "expression": "extension.exists() != value.exists()",
+            "xpath": "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
+            "source": "http://hl7.org/fhir/StructureDefinition/Extension"
+          }
+        ],
         "mapping": [
           {
             "identity": "rim",
             "map": "n/a"
+          },
+          {
+            "identity": "rim",
+            "map": "N/A"
           }
         ]
       },
@@ -175,7 +223,23 @@
           }
         ],
         "fixedUri": "http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-subscription-payloadprofile",
+        "condition": [
+          "ele-1"
+        ],
+        "constraint": [
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "hasValue() | (children().count() > id.count())",
+            "xpath": "@value|f:*|h:div"
+          }
+        ],
         "mapping": [
+          {
+            "identity": "rim",
+            "map": "n/a"
+          },
           {
             "identity": "rim",
             "map": "N/A"
@@ -183,7 +247,7 @@
         ]
       },
       {
-        "id": "Extension.valueUri",
+        "id": "Extension.value[x]",
         "path": "Extension.valueUri",
         "short": "Value of extension",
         "definition": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
@@ -199,7 +263,23 @@
             "code": "uri"
           }
         ],
+        "condition": [
+          "ele-1"
+        ],
+        "constraint": [
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "hasValue() | (children().count() > id.count())",
+            "xpath": "@value|f:*|h:div"
+          }
+        ],
         "mapping": [
+          {
+            "identity": "rim",
+            "map": "n/a"
+          },
           {
             "identity": "rim",
             "map": "N/A"
@@ -215,8 +295,12 @@
         "path": "Extension",
         "short": "Subscription Payload Profile Extension",
         "definition": "The profile of the required data to be sent in the payload.",
-        "min": 0,
         "max": "1"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
       },
       {
         "id": "Extension.url",
@@ -224,7 +308,7 @@
         "fixedUri": "http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-subscription-payloadprofile"
       },
       {
-        "id": "Extension.valueUri",
+        "id": "Extension.value[x]",
         "path": "Extension.valueUri",
         "type": [
           {
