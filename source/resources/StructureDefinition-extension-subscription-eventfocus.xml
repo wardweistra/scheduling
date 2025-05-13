@@ -25,8 +25,6 @@
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />
-  <contextType value="resource" />
-  <context value="Subscription.criteria" />
   <type value="Extension" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <derivation value="constraint" />
@@ -46,16 +44,25 @@
       <fixedUri value="http://fhir.org/guides/argonaut-scheduling/StructureDefinition/extension-subscription-eventfocus" />
     </element>
     <element id="Extension.value[x]">
-      <path value="Extension.valueCode" />
+      <path value="Extension.value[x]" />
+      <slicing>
+        <discriminator>
+          <type value="type" />
+          <path value="$this" />
+        </discriminator>
+        <ordered value="false" />
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Extension.value[x]:valueCode">
+      <path value="Extension.value[x]" />
+      <sliceName value="valueCode" />
       <type>
         <code value="code" />
       </type>
       <binding>
         <strength value="required" />
         <description value="The type of the required data, specified as the type name of a resource. For profiles, this value is set to the type of the base resource of the profile." />
-        <valueSetReference>
-          <reference value="http://hl7.org/fhir/ValueSet/all-types" />
-        </valueSetReference>
       </binding>
     </element>
   </differential>

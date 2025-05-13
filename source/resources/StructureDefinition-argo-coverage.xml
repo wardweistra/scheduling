@@ -47,7 +47,6 @@
     </element>
     <element id="Coverage.status">
       <path value="Coverage.status" />
-      <min value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Coverage.type">
@@ -78,9 +77,6 @@
     <element id="Coverage.relationship">
       <path value="Coverage.relationship" />
       <mustSupport value="true" />
-      <binding>
-        <strength value="extensible" />
-      </binding>
     </element>
     <element id="Coverage.period">
       <path value="Coverage.period" />
@@ -89,7 +85,6 @@
     <element id="Coverage.payor">
       <path value="Coverage.payor" />
       <short value="Payer" />
-      <min value="1" />
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" />
@@ -106,18 +101,6 @@
     </element>
     <element id="Coverage.grouping">
       <path value="Coverage.grouping" />
-      <min value="1" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Coverage.grouping.plan">
-      <path value="Coverage.grouping.plan" />
-      <short value="Plan ID" />
-      <min value="1" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Coverage.grouping.planDisplay">
-      <path value="Coverage.grouping.planDisplay" />
-      <short value="Plan Name" />
       <min value="1" />
       <mustSupport value="true" />
     </element>
